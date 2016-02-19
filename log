@@ -1,0 +1,77 @@
+/usr/bin/python3.4 /home/mingyan/GraphicModel/project/assignment3/autoencoder.py
+************** Building autoencoder for A : 
+[4 9 6 ..., 2 4 4]
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 1]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+(10000, 784)
+(10000, 10)
+(10000, 784)
+(10000, 10)
+(200000, 784)
+(200000, 10)
+[[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 1]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 1 0]]
+[0 0 0 0 1 0 0 0 0 0]
+7
+Training epoch 0, cost  211.132520167
+Neural network classifier 0, cost  15.5804097277
+Training epoch 1, cost  161.565425709
+Neural network classifier 1, cost  9.05034972348
+Training epoch 2, cost  146.530680756
+Neural network classifier 2, cost  7.97205084707
+Training epoch 3, cost  138.616484184
+Neural network classifier 3, cost  7.37541537299
+Training epoch 4, cost  133.957929789
+Neural network classifier 4, cost  6.94461260421
+Training epoch 5, cost  130.950974327
+Neural network classifier 5, cost  6.63106034802
+Training epoch 6, cost  128.854407538
+Neural network classifier 6, cost  6.36327092175
+The no corruption code for file autoencoder.py ran for 60.07m
+Training epoch 7, cost  127.301169373
+Neural network classifier 7, cost  6.13854833847
+**********prediction on train set: 
+[1 9 3 9 9 4 9 7 0 7 3 3 9 6 4 2 4 2 7 8 1 4 8 0 6 7 8 2 9 8 9 3 8 6 4 7 5
+ 5 0 1 3 7 6 8 9 3 3 6 8 9 9 5 4 3 6 8 8 8 3 4 4 7 8 7 5 7 8 6 9 6 7 0 9 7
+ 7 8 3 5 7 9 9 8 8 5 1 5 6 4 4 0 7 3 4 6 3 7 6 7 8 5]
+[1 9 3 8 9 3 9 7 0 7 3 4 9 2 4 2 4 2 7 1 1 4 8 0 6 7 8 2 9 8 9 3 4 6 3 7 5
+ 5 0 8 3 7 9 8 9 3 3 6 8 9 9 5 8 3 1 6 8 2 3 4 5 7 3 6 5 7 8 6 9 6 7 0 9 7
+ 7 8 2 5 7 9 9 8 8 5 1 5 6 4 4 0 7 3 4 0 7 7 6 7 8 5]
+********error percent :
+0.2986
+**********prediction on valid set: 
+[1 9 3 9 9 4 9 7 0 7 3 3 9 6 4 2 4 2 7 8 1 4 8 0 6 7 8 2 9 8 9 3 8 6 4 7 5
+ 5 0 1 3 7 6 8 9 3 3 6 8 9 9 5 4 3 6 8 8 8 3 4 4 7 8 7 5 7 8 6 9 6 7 0 9 7
+ 7 8 3 5 7 9 9 8 8 5 1 5 6 4 4 0 7 3 4 6 3 7 6 7 8 5]
+[1 9 3 8 9 3 9 7 0 7 3 4 9 2 4 2 4 2 7 1 1 4 8 0 6 7 8 2 9 8 9 3 4 6 3 7 5
+ 5 0 8 3 7 9 8 9 3 3 6 8 9 9 5 8 3 1 6 8 2 3 4 5 7 3 6 5 7 8 6 9 6 7 0 9 7
+ 7 8 2 5 7 9 9 8 8 5 1 5 6 4 4 0 7 3 4 0 7 7 6 7 8 5]
+********error percent :
+0.2986
+**********prediction on test set: 
+[3 6 4 7 7 7 7 1 7 2 3 3 9 9 0 2 2 8 2 9 8 8 7 0 5 2 2 0 2 6 0 1 8 6 1 1 5
+ 0 3 9 3 1 1 5 2 0 1 2 7 2 7 3 1 0 0 5 4 0 0 8 8 0 6 4 7 7 0 9 5 7 3 5 5 6
+ 2 4 9 0 6 4 6 1 0 3 4 8 2 8 0 0 5 1 2 4 7 7 2 2 5 8]
+[3 6 4 7 7 7 7 1 7 4 6 0 9 0 0 2 2 8 2 9 8 8 7 6 5 2 2 0 2 6 0 1 8 6 1 3 5
+ 7 3 9 3 1 1 8 2 3 1 2 7 2 7 3 1 0 0 5 4 0 0 8 8 0 6 4 7 7 0 9 5 4 3 5 5 6
+ 2 4 9 0 6 5 6 1 0 3 4 6 2 8 0 0 5 1 2 4 7 7 2 2 5 8]
+********error percent :
+0.2187
+A_zero__train loss  = 126.858548993
+A_zero__valid loss  = 126.858548993
+A_zero__test loss  = 115.341640223
+************** Building autoencoder for B : 
+**************add gaussian noise : 
+
+Process finished with exit code 0
+
